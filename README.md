@@ -23,6 +23,8 @@ Node v20.12.0 (not recommend)
 
 ![response](response.png)
 
+Change `const info =` for diffrent output
+
 ## Acknowledgements
 
 - we-toolkit from [kofta999](https://github.com/kofta999)
