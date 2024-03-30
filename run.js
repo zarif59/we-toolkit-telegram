@@ -16,8 +16,9 @@ const weInfo = () => {
 const sendTelegram = () => {
     const token = 'YOUR_TELEGRAM_BOT_TOKEN'; // => change YOUR_TELEGRAM_BOT_TOKEN 
     const bot = new TelegramBot(token, {polling: true});
+    const chatId = 'CHAT_ID' // => change CHAT_ID
 
-    bot.sendMessage(CHAT_ID, weInfo()) // => change CHAT_ID 
+    bot.sendMessage(chatId, weInfo())
     .then(() => {
         console.log('done sending');
         process.exit(0);

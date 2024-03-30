@@ -17,6 +17,7 @@ Node v20.12.0 (not recommend)
 1. Change WE_LOGIN_NUMBER and WE_LOGIN_PASSWORD in run.js
 2. Get telegram bot api token from telegram @BotFather
 3. Get chat id by using `https://api.telegram.org/bot<YourBOTToken>/getUpdates`
+4. Chnage YOUR_TELEGRAM_BOT_TOKEN and CHAT_ID in run.js
 4. Run the script `node run.js`
 
 ## Example response
