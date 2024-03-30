@@ -2,13 +2,13 @@
 Get info from WE Telecom Egypt api and sent it via Telegram
 
 ## Requirement
-Node v18.20.0
+Node v18.20.0 (recommend)
 
-v20.12.0 is not recommend
+Node v20.12.0 (not recommend)
 
 ## Installation
 
-`git clone`
+`git clone this repo`
 
 `npm install`
 
