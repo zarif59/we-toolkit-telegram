@@ -7,7 +7,7 @@ let usage = await getUsage(authData);
 // getting info from api server
 const weInfo = () => {
     const keys = Object.keys(usage.detailedLineUsageList);
-    const C_TED_Primary_Fixed_Data = keys[keys.length -1];
+    const C_TED_Primary_Fixed_Data = keys[keys.length -1]; //Finding Primary Fixed Data Account, usually located at the last array of detailedLineUsageList.
     const info = `Name: ${usage.summarizedLineUsageList[0].englishDisplayName} \nTotal Amount: ${usage.summarizedLineUsageList[0].initialTotalAmount}GB \nBalance: ${usage.summarizedLineUsageList[0].freeAmount}GB \nUsed: ${usage.summarizedLineUsageList[0].usedAmount}GB \nUsage Percentage: ${usage.summarizedLineUsageList[0].usagePercentage}% \nRenewal Date: ${usage.detailedLineUsageList[C_TED_Primary_Fixed_Data].renewalDate}`;
     return info
 }
